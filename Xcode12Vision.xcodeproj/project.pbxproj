@@ -15,6 +15,10 @@
 		EAD94A9F24C967910061E5B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD94A7424C967900061E5B6 /* ContentView.swift */; };
 		EAD94AA024C967910061E5B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD94A7524C967910061E5B6 /* Assets.xcassets */; };
 		EAD94AA124C967910061E5B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD94A7524C967910061E5B6 /* Assets.xcassets */; };
+		EAFC1A1A24C96EFF00CF4EB4 /* CaptureSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFC1A1924C96EFF00CF4EB4 /* CaptureSessionView.swift */; };
+		EAFC1A1C24C96F8D00CF4EB4 /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFC1A1B24C96F8D00CF4EB4 /* CaptureSession.swift */; };
+		EAFC1A1D24C96F8D00CF4EB4 /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFC1A1B24C96F8D00CF4EB4 /* CaptureSession.swift */; };
+		EAFC1A1F24C9750400CF4EB4 /* CaptureSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFC1A1E24C9750400CF4EB4 /* CaptureSessionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,9 @@
 		EAD94A9524C967910061E5B6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD94A9924C967910061E5B6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		EAD94A9B24C967910061E5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFC1A1924C96EFF00CF4EB4 /* CaptureSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSessionView.swift; sourceTree = "<group>"; };
+		EAFC1A1B24C96F8D00CF4EB4 /* CaptureSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSession.swift; sourceTree = "<group>"; };
+		EAFC1A1E24C9750400CF4EB4 /* CaptureSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSessionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +107,7 @@
 			children = (
 				EAD94A7324C967900061E5B6 /* Xcode12VisionApp.swift */,
 				EAD94A7424C967900061E5B6 /* ContentView.swift */,
+				EAFC1A1B24C96F8D00CF4EB4 /* CaptureSession.swift */,
 				EAD94A7524C967910061E5B6 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -120,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				EAD94A7D24C967910061E5B6 /* Info.plist */,
+				EAFC1A1E24C9750400CF4EB4 /* CaptureSessionView.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				EAD94A8424C967910061E5B6 /* Info.plist */,
+				EAFC1A1924C96EFF00CF4EB4 /* CaptureSessionView.swift */,
 				EAD94A8524C967910061E5B6 /* macOS.entitlements */,
 			);
 			path = macOS;
@@ -310,6 +320,8 @@
 			files = (
 				EAD94A9E24C967910061E5B6 /* ContentView.swift in Sources */,
 				EAD94A9C24C967910061E5B6 /* Xcode12VisionApp.swift in Sources */,
+				EAFC1A1F24C9750400CF4EB4 /* CaptureSessionView.swift in Sources */,
+				EAFC1A1C24C96F8D00CF4EB4 /* CaptureSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +330,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAD94A9F24C967910061E5B6 /* ContentView.swift in Sources */,
+				EAFC1A1A24C96EFF00CF4EB4 /* CaptureSessionView.swift in Sources */,
 				EAD94A9D24C967910061E5B6 /* Xcode12VisionApp.swift in Sources */,
+				EAFC1A1D24C96F8D00CF4EB4 /* CaptureSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +485,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPZK4WRGW7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -492,6 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPZK4WRGW7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
